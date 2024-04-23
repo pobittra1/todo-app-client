@@ -1,12 +1,7 @@
-import { Button } from "./components/ui/button";
+import Todos from "./pages/Todos";
 
 function App() {
-  return (
-    <>
-      <p>client sowing</p>
-      <Button variant="destructive">button</Button>
-    </>
-  );
+  return <Todos></Todos>;
 }
 
 export default App;
